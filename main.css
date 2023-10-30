@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #56F085;
+    color: white;
+    height: 80px;
+}
+.pig1{
+    padding-top: 30px;
+}
+.pig2{
+    padding-top: 40px;
+}
+.para{
+    color: black;
+}
+#btn{
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #5865F2;
+    color: white;
+    text-align: center;
+    transition: all .2s ease-in-out;
+    position: relative;
+    top: -7px;
+    left: 9px;
+
+}
